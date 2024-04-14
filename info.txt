@@ -1,0 +1,3 @@
+Go code is grouped into packages, 
+and packages are grouped into modules.
+ 
