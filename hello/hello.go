@@ -6,6 +6,8 @@ import (
 
 	"example.com/greetings"
 	"rsc.io/quote"
+
+	"golang.org/x/example/hello/reverse"
 )
 
 func main() {
@@ -26,4 +28,7 @@ func main() {
 	// If no error was returned, print the returned message
 	// to the console.
 	fmt.Println(message)
+	fmt.Println(reverse.String(message))
+
+	fmt.Println(reverse.String("Hello"), reverse.Int(24601))
 }
